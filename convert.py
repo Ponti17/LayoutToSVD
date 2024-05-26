@@ -61,21 +61,47 @@ six-digit hex code (like HTML), and opacity should be either 0.0 - 1.0 or
 1 - 255.
 """
 layer_colors = {} #("fg color", "fg opacity", "stroke color")
-layer_colors[1] =  ("e71f0d",   "0.5",        "e71f0d"      ) # Oxide
-layer_colors[2] =  ("9900e6",   "0.1",        "9900e6"      ) # Nwell
-layer_colors[3] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
-layer_colors[4] =  ("ffff00",   "0.2",        "ffff00"      ) # Nimp
-layer_colors[5] =  ("bf4026",   "0.1",        "bf4026"      ) # Pimp
-layer_colors[6] =  ("ffffff",   "1.0",        "000000"      ) # Contact
-layer_colors[7] =  ("0000ff",   "0.3",        "0000ff"      ) # M1
-layer_colors[8] =  ("39bfff",   "1.0",        "38bfff"      ) # Via1-2
-layer_colors[9] =  ("ff0000",   "0.3",        "ff0000"      ) # M2
-layer_colors[10] = ("ff8000",   "1.0",        "ff8000"      ) # Via2-3
-layer_colors[11] = ("01cc66",   "0.3",        "01cc66"      ) # M3
-layer_colors[30] = ("9900e6",   "1.0",        "9900e6"      ) # Via3-4
-layer_colors[31] = ("ffbff2",   "0.3",        "ffbff2"      ) # M4
-layer_colors[62] = ("ff00ff",   "0.0",        "ff00ff"      ) # prBndry
-layer_colors[85] = ("bf4026",   "0.0",        "bf4026"      ) # PWdummy
+# layer_colors[1] =  ("e71f0d",   "0.5",        "e71f0d"      ) # Oxide
+# layer_colors[2] =  ("9900e6",   "0.1",        "9900e6"      ) # Nwell
+# layer_colors[3] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+# layer_colors[4] =  ("ffff00",   "0.2",        "ffff00"      ) # Nimp
+# layer_colors[5] =  ("bf4026",   "0.1",        "bf4026"      ) # Pimp
+# layer_colors[6] =  ("ffffff",   "1.0",        "000000"      ) # Contact
+# layer_colors[7] =  ("0000ff",   "0.3",        "0000ff"      ) # M1
+# layer_colors[8] =  ("39bfff",   "1.0",        "38bfff"      ) # Via1-2
+# layer_colors[9] =  ("ff0000",   "0.3",        "ff0000"      ) # M2
+# layer_colors[10] = ("ff8000",   "1.0",        "ff8000"      ) # Via2-3
+# layer_colors[11] = ("01cc66",   "0.3",        "01cc66"      ) # M3
+# layer_colors[30] = ("9900e6",   "1.0",        "9900e6"      ) # Via3-4
+# layer_colors[31] = ("ffbff2",   "0.3",        "ffbff2"      ) # M4
+# layer_colors[62] = ("ff00ff",   "0.0",        "ff00ff"      ) # prBndry
+# layer_colors[85] = ("bf4026",   "0.0",        "bf4026"      ) # PWdummy
+
+layer_colors[3]   =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[6]   =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[30]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[31]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[17]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[18]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[25]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[26]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[32]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[33]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[34]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[35]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[36]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[37]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[38]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[57]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[75]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[77]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[88]  =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[131] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[132] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[133] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[148] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[149] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
+layer_colors[150] =  ("01fe00",   "0.3",        "01fe00"      ) # poly
 
 # We keep track of all the undefined_layers so we can tell the user at the end of execution.
 undefined_layers = set()
