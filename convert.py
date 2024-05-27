@@ -206,7 +206,7 @@ class Polygon(Cell):
             
         path += " z"
 
-        to_write.append( (self.layer, '    <path\n       d="' + path + '%s"\n       id="' + self.id + '"\n       style="' + style + '" />\n') )
+        to_write.append( (self.layer, '    <path\n       d="' + path + '"\n       id="' + self.id + '"\n       style="' + style + '" />\n') )
 
 """
 Takes the original object's coordinates (obj_x and obj_y), applies a rotation
